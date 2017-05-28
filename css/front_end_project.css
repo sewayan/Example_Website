@@ -1,0 +1,205 @@
+body{
+	width: 1200px;
+	height: 2600px;
+}
+
+header{
+	font-family:'Lora';
+	height: 800px;
+	clear: both;
+/*centers all header content*/
+	/*display: block; 
+    margin: auto;
+    width: 50%;*/
+}
+
+.full-width{
+	width: 1200px;
+}
+
+.my-name-half-width{
+	width: 50%;
+	font-size: 15px;
+	color: #BBC085;
+/*position on img*/
+	position: relative;
+	top: -750px;
+}
+
+.clean-dev-half-width span{ /* 'Hi!' */
+	color: #2b2b2b;
+	width: 50%
+	font-size: 72px;
+/*position on img*/
+	position: relative;
+	border:0;
+	margin:0 5px 0 0;
+	float: left;
+}
+
+.clean-dev-half-width{
+	width: 50%
+	font-size: 72px;
+	color: #9b9b9b;
+/*position on img*/
+	position: relative;
+	top: -600px;
+	left: 300px;
+	border:0;
+	margin:0;
+}
+
+/*Navbar*/
+nav{
+	float: right;
+	font-family:'Source Sans Pro';
+	color: #828282;
+	font-size: 18px;
+	width:	350px;
+/*remove browser standard settings*/
+	margin:0;
+	padding:0;
+}
+
+ul{
+	display: inline;
+	float: left;
+}
+
+a {
+    position: relative;
+    top: -260px;
+    right: 100px;
+    padding: 8px;
+ }
+/*---------*/
+
+/* Main */
+main{
+	height: 1200px;
+	clear: both;
+	margin: 0;
+	padding:0;
+}
+
+.about-me-full-width{
+	width: 100%;
+	font-family: 'Lora';
+	font-size: 30px;
+	color: #2b2b2b;
+	clear: both;
+}
+
+.my-story-half-width{
+	width: 50%;
+	font-family: 'Source Sans Pro';
+	color: #7f7f7f;
+	font-size: 20px;
+	margin: 0px 0px 100px 0px;
+	padding: 0;
+}
+
+.motivation-half-width{
+	width: 50%;
+	font-family: 'Source Sans Pro';
+	font-size: 20px;
+	color: #7f7f7f;
+	margin: 0;
+	padding: 0;
+/* position next to 'my-story' */
+	float: right;
+	position: relative;
+	top: -295px;
+	left: 50px;
+}
+
+#work{
+	height: 600px;
+	background-color: #F9CEB7;
+	margin: 0;
+}
+
+.third-width{ /* each image + text -> 400px */
+	width:400px;
+	position: relative;
+}
+
+.third-width h3{ /* valid for all <h> in all three text sections */
+	font-family: 'Source Sans Pro';
+	color: #2b2b2b;
+	font-size: 20px;
+	position: relative;
+	top: 100px;
+	text-align: center;
+}
+
+.third-width p{
+	font-family: 'Lora'
+	color:#2b2b2b;
+	font-size: 18px;
+	position: relative;
+	top: 100px;
+}
+
+#h3-css{
+	position: relative;
+	top: -20px;
+	left: 350px;
+}
+
+#p-css{	
+	position: relative;
+	top: -20px;
+	left: 410px;
+}
+
+#h3-psd{
+	position: relative;
+	top: -160px;
+	left: 850px;
+}
+
+#p-psd{
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	position: relative;
+	top: -180px;
+	left: 850px;
+}
+
+img[src='img/icon-html.png']{
+	position: relative;
+	top:  110px;
+	left: 150px;
+}
+
+
+img[src='img/icon-css.png'] {
+	float: right;
+	position: relative;
+	top: -128px;
+	left: 150px;
+}
+
+img[src='img/icon-pencil.png']{
+	float: right;
+	position: relative;
+	top: -280px;
+	left: 550px;
+	clear: right; /* last element, nothing should be on the right*/
+}
+/*---------*/
+
+/* Footer */
+
+#contact{
+	height: 600px;
+	width: 1200px;
+}
+
+img[src='img/icon-envelope.png']{
+	position: relative;
+	top:0px;
+}
+
