@@ -114,7 +114,7 @@ main{
 }
 
 #work{
-	height: 600px;
+	height: 500px;
 	background-color: #F9CEB7;
 	margin: 0;
 }
@@ -134,7 +134,7 @@ main{
 }
 
 .third-width p{
-	font-family: 'Lora'
+	font-family: 'Lora';
 	color:#2b2b2b;
 	font-size: 18px;
 	position: relative;
@@ -143,20 +143,20 @@ main{
 
 #h3-css{
 	position: relative;
-	top: -20px;
+	top: -55px;
 	left: 350px;
 }
 
 #p-css{	
 	position: relative;
-	top: -20px;
+	top: -60px;
 	left: 410px;
 }
 
 #h3-psd{
 	position: relative;
-	top: -160px;
-	left: 850px;
+	top: -235px;
+	left: 820px;
 }
 
 #p-psd{
@@ -164,13 +164,13 @@ main{
 	margin-right: auto;
 	padding-top: 10px;
 	position: relative;
-	top: -180px;
-	left: 850px;
+	top: -250px;
+	left: 810px;
 }
 
 img[src='img/icon-html.png']{
 	position: relative;
-	top:  110px;
+	top:  100px;
 	left: 150px;
 }
 
@@ -178,15 +178,15 @@ img[src='img/icon-html.png']{
 img[src='img/icon-css.png'] {
 	float: right;
 	position: relative;
-	top: -128px;
+	top: -165px;
 	left: 150px;
 }
 
 img[src='img/icon-pencil.png']{
 	float: right;
 	position: relative;
-	top: -280px;
-	left: 550px;
+	top: -340px;
+	left: 600px;
 	clear: right; /* last element, nothing should be on the right*/
 }
 /*---------*/
@@ -194,12 +194,40 @@ img[src='img/icon-pencil.png']{
 /* Footer */
 
 #contact{
-	height: 600px;
+	height: 700px;
 	width: 1200px;
+	margin-top: 0;
+	padding-top: 0;
 }
 
 img[src='img/icon-envelope.png']{
 	position: relative;
-	top:0px;
+	top: -10px;
 }
+
+a[href='mailto:hi@jubileeausten.com']{
+	position: relative;
+	top: 90px;
+	left: 835px;
+}
+
+#contact-h2{
+	position: relative;
+	top: -235px;
+	left: 820px;
+}
+
+#contact-h3{
+	position: relative;
+	top: -235px;
+	left: 820px;
+}
+
+#contact-socialmedia{
+	position: relative;
+	top: -235px;
+	left: 820px;
+}
+
+
 
