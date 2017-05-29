@@ -76,7 +76,7 @@ a {
 
 /* Main */
 main{
-	height: 1200px;
+	height: 1000px;
 	clear: both;
 	margin: 0;
 	padding:0;
@@ -114,7 +114,6 @@ main{
 }
 
 #work{
-	height: 500px;
 	background-color: #F9CEB7;
 	margin: 0;
 }
@@ -193,21 +192,20 @@ img[src='img/icon-pencil.png']{
 
 /* Footer */
 
+footer{
+	height: 800px;
+	margin: 0;
+	padding: 0;
+}
+
 #contact{
-	height: 700px;
 	width: 1200px;
-	margin-top: 0;
-	padding-top: 0;
+	background-color: #ebebeb;
 }
 
-img[src='img/icon-envelope.png']{
+.email-envelope-full-width{
 	position: relative;
-	top: -10px;
-}
-
-a[href='mailto:hi@jubileeausten.com']{
-	position: relative;
-	top: 90px;
+	top: 0px;
 	left: 835px;
 }
 
@@ -229,5 +227,8 @@ a[href='mailto:hi@jubileeausten.com']{
 	left: 820px;
 }
 
-
+img[src='img/contact.png']{
+	border-color: white;
+	border-width: 12px;
+}
 
