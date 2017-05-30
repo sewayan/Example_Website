@@ -23,7 +23,7 @@ header{
 	color: #BBC085;
 /*position on img*/
 	position: relative;
-	top: -750px;
+	top: -700px;
 }
 
 .clean-dev-half-width span{ /* 'Hi!' */
@@ -56,6 +56,9 @@ nav{
 	color: #828282;
 	font-size: 18px;
 	width:	350px;
+	position: relative;
+	top: 50px;
+	left: -200px;
 /*remove browser standard settings*/
 	margin:0;
 	padding:0;
@@ -94,6 +97,7 @@ main{
 	width: 50%;
 	font-family: 'Source Sans Pro';
 	color: #7f7f7f;
+	text-align: justify;
 	font-size: 20px;
 	margin: 0px 0px 100px 0px;
 	padding: 0;
@@ -106,16 +110,18 @@ main{
 	color: #7f7f7f;
 	margin: 0;
 	padding: 0;
+	text-align: justify;
 /* position next to 'my-story' */
 	float: right;
 	position: relative;
 	top: -295px;
-	left: 50px;
+	left: 30px;
 }
 
 #work{
 	background-color: #F9CEB7;
 	margin: 0;
+	height: 800px;
 }
 
 .third-width{ /* each image + text -> 400px */
@@ -167,6 +173,15 @@ main{
 	left: 810px;
 }
 
+/*----------*/
+
+	/*ALL IMAGES*/
+
+/*top background img */
+img[src='img/hero.png']{
+	width: 1200px;
+}
+
 img[src='img/icon-html.png']{
 	position: relative;
 	top:  100px;
@@ -188,12 +203,18 @@ img[src='img/icon-pencil.png']{
 	left: 600px;
 	clear: right; /* last element, nothing should be on the right*/
 }
+
+/* bottom/contact background img */
+img[src='img/contact.png']{
+	border-color: white;
+	border-width: 12px;
+}
 /*---------*/
 
 /* Footer */
 
 footer{
-	height: 800px;
+	height: 500px;
 	margin: 0;
 	padding: 0;
 }
@@ -205,7 +226,7 @@ footer{
 
 .email-envelope-full-width{
 	position: relative;
-	top: 0px;
+	top: 350px;
 	left: 835px;
 }
 
@@ -227,8 +248,4 @@ footer{
 	left: 820px;
 }
 
-img[src='img/contact.png']{
-	border-color: white;
-	border-width: 12px;
-}
 
